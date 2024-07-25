@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 8px 0 4px;
+  }
+  
+  input, textarea {
+    margin-bottom: 12px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

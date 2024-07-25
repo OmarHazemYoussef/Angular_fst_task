@@ -1,0 +1,10 @@
+<div *ngIf="task">
+    <h2>{{ task.title }}</h2>
+    <p>{{ task.description }}</p>
+    <label>
+      <input type="checkbox" [(ngModel)]="task.completed">
+      Completed
+    </label>
+    <button (click)="editTask()">Save</button>
+  </div>
+  
